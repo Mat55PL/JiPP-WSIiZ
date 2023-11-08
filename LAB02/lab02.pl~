@@ -1,0 +1,5 @@
+szczesliwy(X) :- rodzic(X,_).
+
+ma_dwoje_dzieci(X) :-
+    rodzic(X,Y),
+    siostra(_,Y).
