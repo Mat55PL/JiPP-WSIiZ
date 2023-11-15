@@ -1,0 +1,4 @@
+dodaj(E, [], [E]).
+
+dodaj(E, [G|O], [G|NO]) :-
+    dodaj(E,O,NO).

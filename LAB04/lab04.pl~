@@ -1,0 +1,4 @@
+dlugosc([],0).
+dlugosc([_|Tail], Dlugosc) :-
+    dlugosc(Tail, DlugoscOgona),
+    Dlugosc is DlugoscOgona + 1.
