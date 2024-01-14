@@ -1,0 +1,6 @@
+(defun sumaNie (x y)
+  (let ((suma 0))
+    (do ((i x (+ i 1)))
+        ((> i y) suma)
+      (when (not (= (mod i 2) 0))
+        (setf suma (+ suma i))))))
