@@ -1,0 +1,6 @@
+(defun stackDiv5 (stack)
+(let ((wynik '()))
+(dolist (item stack)
+(when (= 0 (mod item 5))
+(push item wynik)))
+wynik))
